@@ -3,9 +3,9 @@
 Welcome to the Introduction to Algorithms II course! 
 
 
--  #####[Course program](/program.md)
+- [Course program](/program.md)
 
-- #####[Lectures](/lectures)
+- [Lectures](/lectures)
 
 #### Materials:
 
