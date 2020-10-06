@@ -2,4 +2,4 @@
 
 Welcome to the Introduction to Algorithms II course! 
 
-[Course program](/program.md)
+To read course program go [here](/program.md).
