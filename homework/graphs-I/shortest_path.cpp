@@ -5,7 +5,8 @@
 
 // You are given a graph (All vertices are numbered from 1 to n) and two vertices.
 // You have to find a length of the shortest path between vertex s and vertex v.
-// In your solution you have to follow the template
+// In your solution you have to follow the template:
+// https://github.com/clumpytuna/Data-Structures-and-Algorithms-II-2020/blob/master/homework/graphs-I/shortest_path.cpp
 
 // Input:
 // First line: n (number of vertices)
