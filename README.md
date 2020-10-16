@@ -7,6 +7,10 @@ Welcome to the Data Structures and Algorithms II course!
 
 - [Lectures](/lectures)
 
+#### Homework
+- [Graph I: BFS](https://contest.yandex.ru/contest/20793/standings) | Deadline: 15 October 23:59
+- [Graph II: DFS](https://contest.yandex.ru/contest/21057/standings/)  | Deadline: 22 October 23:59
+
 #### Materials:
 
 Algorithms, 4th Edition by Robert Sedgewick and Kevin Wayne
