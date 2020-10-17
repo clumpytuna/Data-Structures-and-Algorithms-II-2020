@@ -5,13 +5,10 @@
 // that returns any topological sort of the graph as a sequence of vertex.
 // If the graph cannot be topologically sorted, then output -1.
 
-#include <stdio.h>
 #include <vector>
 #include <iostream>
 #include <map>
 #include <cstdlib>
-#include <time.h>
-#include <string>
 #include <algorithm>
 
 class Graph {
