@@ -18,21 +18,8 @@
 // Contest:
 //
 
-//
-//  dijkstra.cpp
-//  algo-II
-//
-//  Created by Clumpy Tuna on 17/10/2020.
-//  Copyright © 2020 Clumpy Tuna. All rights reserved.
-//
-
 #include <stdio.h>
-#include <vector>
 #include <iostream>
-#include <map>
-#include <limits>
-#include <algorithm>
-#include <set>
 
 class Graph {
  public:
