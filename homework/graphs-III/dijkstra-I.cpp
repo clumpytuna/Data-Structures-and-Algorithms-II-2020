@@ -9,7 +9,7 @@
 // $b_i$ and $w_i$ (1 ≤ $a_i$, $b_i$ ≤ n, 1 ≤ $w_i$ ≤ $10^6$),
 // where $a_i$, $b_i$ are edge endpoints and $w_i$ is the length of the edge.
 //
-//It is possible that the graph has loops.
+// It is possible that the graph has loops.
 //
 // Output:
 // Write the only integer -1 in case of no path.

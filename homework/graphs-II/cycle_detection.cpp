@@ -32,7 +32,7 @@ class Graph {
     return adjacency_list[node_number];
   }
 
-  bool HasCycle() {
+  bool HasCycle() const {
     // Write your code here
     return false;
   }
