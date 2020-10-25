@@ -21,6 +21,19 @@
 #include <stdio.h>
 #include <iostream>
 
+class Heap {
+ public:
+  // Constructor to build a heap from array
+  Heap(const std::vector<std::pair<int, int>>& array) {}
+  // Insert an element in heap
+  void Insert(std::pair<int, int> element) {}
+  // Get a maximum element and delete from a heap
+  std::pair<int, int> ExtractMax() {}
+  // Decrease a key
+  std::pair<int, int> DecreaseKey(std::pair<int, int> decreased_edge) {}
+};
+
+
 class Graph {
  public:
   Graph(int number_of_nodes) : adjacency_list(number_of_nodes + 1) {}
@@ -31,9 +44,6 @@ class Graph {
 
   int GetDistanceDijkstra(int source, int target) const {}
 
-  size_t GetSize() const {
-    return adjacency_list.size();
-  }
 
  private:
   std::vector<std::vector<std::pair<int, int>>> adjacency_list;
