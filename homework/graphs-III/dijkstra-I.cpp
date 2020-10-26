@@ -9,7 +9,7 @@
 // $b_i$ and $w_i$ (1 ≤ $a_i$, $b_i$ ≤ n, 1 ≤ $w_i$ ≤ $10^6$),
 // where $a_i$, $b_i$ are edge endpoints and $w_i$ is the length of the edge.
 //
-// It is possible that the graph has loops.
+// It is possible that the graph has loops and multiple edges between pair of vertices.
 //
 // Output:
 // Write the only integer -1 in case of no path.
@@ -27,13 +27,7 @@ class Graph {
 
   void AddEdge(int source, int destination, int weight) {}
 
-  std::vector<std::pair<int, int>> GetAdjacencyNodes(int node) const {}
-
   int GetDistanceDijkstra(int source, int target) const {}
-
-  size_t GetSize() const {
-    return adjacency_list.size();
-  }
 
  private:
   std::vector<std::vector<std::pair<int, int>>> adjacency_list;

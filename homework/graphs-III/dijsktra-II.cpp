@@ -9,7 +9,7 @@
 // $b_i$ and $w_i$ (1 ≤ $a_i$, $b_i$ ≤ n, 1 ≤ $w_i$ ≤ $10^6$),
 // where $a_i$, $b_i$ are edge endpoints and $w_i$ is the length of the edge.
 //
-// It is possible that the graph has loops.
+// It is possible that the graph has loops and multiple edges between pair of vertices.
 //
 // Output:
 // Write the only integer -1 in case of no path.
@@ -21,16 +21,25 @@
 #include <stdio.h>
 #include <iostream>
 
+
+// Class to store information about distances in Dijkstra Algorithm.
+// Every node can be represented as its number (key)
+// and a distance (value).
+// Extract min operation must take O(1) time.
 class Heap {
  public:
   // Constructor to build a heap from array
   Heap(const std::vector<std::pair<int, int>>& array) {}
+
   // Insert an element in heap
-  void Insert(std::pair<int, int> element) {}
-  // Get a maximum element and delete from a heap
-  std::pair<int, int> ExtractMax() {}
-  // Decrease a key
-  std::pair<int, int> DecreaseKey(std::pair<int, int> decreased_edge) {}
+  void Insert(int key, int value) {}
+
+  // Get the minimum element and delete from a heap
+  std::pair<int, int> ExtractMin() {}
+
+  // Decrease a key by a new value. If there is no a key,
+  // return false, otherwise return true
+  bool DecreaseKey(int key, int new_value) {}
 };
 
 
@@ -40,10 +49,7 @@ class Graph {
 
   void AddEdge(int source, int destination, int weight) {}
 
-  std::vector<std::pair<int, int>> GetAdjacencyNodes(int node) const {}
-
   int GetDistanceDijkstra(int source, int target) const {}
-
 
  private:
   std::vector<std::vector<std::pair<int, int>>> adjacency_list;
