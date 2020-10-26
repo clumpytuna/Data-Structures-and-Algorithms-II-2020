@@ -15,7 +15,6 @@
 // Write the only integer -1 in case of no path.
 // Write the shortest path length in opposite case.
 //
-// Contest:
 //
 
 #include <stdio.h>
