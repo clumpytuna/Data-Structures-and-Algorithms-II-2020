@@ -15,11 +15,9 @@
 // Write the only integer -1 in case of no path.
 // Write the shortest path length in opposite case.
 //
-//
 
 #include <stdio.h>
 #include <iostream>
-
 
 // Class to store information about distances in Dijkstra Algorithm.
 // Every node can be represented as its number (key)
