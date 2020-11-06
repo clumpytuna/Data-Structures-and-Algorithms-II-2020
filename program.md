@@ -7,6 +7,7 @@
 4. Dijkstra algorithm
 5. Bellman-Ford algorithm
 6. Dijkstra algorithm optimizations
-7. Dynamic Programming: Memoization, subproblems; Fibonacci, shortest paths
-8. Parent pointers; text justification, perfect-information blackjack
-9. String subproblems, psuedopolynomial time; parenthesization, edit distance, knapsack
+7. Dynamic Programming: Memoization, subproblems; Fibonacci
+8. Dynamic Programming: Shortest paths, general structure
+10. Parent pointers; text justification, perfect-information blackjack
+11. String subproblems, psuedopolynomial time; parenthesization, edit distance, knapsack
