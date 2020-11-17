@@ -14,6 +14,7 @@ Welcome to the Data Structures and Algorithms II course!
 - [Graph II: DFS](https://contest.yandex.ru/contest/21057/standings/)  | Deadline: 22 October 23:59
 - [Graph III: Dijkstra](https://contest.yandex.ru/contest/21550/standings)  | Deadline: 2 November 23:59 | 5 November 23:59 for the Dijkstra-II problem
 - [Dynamic Programming I: Fibonacci Research](/homework/dynamic-programming-I/homework-IV.pdf)  | Deadline: 12 November 23:59
+- [Dynamic Programming & Graphs II: Bellman Ford](https://contest.yandex.ru/contest/22683/standings)  | Deadline: 21 November 23:59
 #### Materials:
 
 Algorithms, 4th Edition by Robert Sedgewick and Kevin Wayne
