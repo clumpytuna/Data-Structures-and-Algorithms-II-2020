@@ -12,7 +12,7 @@
 // It is possible that the graph has loops and multiple edges between pair of vertices.
 //
 // Output:
-// Write the only integer -1 in case of no path.
+// Write the only integer -1 in case of no path or if negative cycle exists.
 // Write the shortest path length in opposite case.
 //
 //
