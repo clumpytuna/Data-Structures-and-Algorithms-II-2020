@@ -5,6 +5,6 @@
 3. Dijkstra algorithm
 4. Bellman-Ford algorithm
 5. Dijkstra algorithm optimizations: single-source, single-target | Bi-Directional Search
-6. Dynamic Programming: Shortest paths
-7. Dynamic Programming: String subproblems, edit distance
-8. Dynamic Programming: Knapsack
+6. Dynamic Programming: General Approach, Fibonacci number examples
+6. Dynamic Programming: String subproblems, edit distance
+7. Dynamic Programming: Knapsack
